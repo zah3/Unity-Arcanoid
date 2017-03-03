@@ -8,17 +8,11 @@ public class MusicPlayer : MonoBehaviour {
 	void Awake(){
 		if(instance != null){
 			Destroy (gameObject);
-			print ("Dublicate music player self-destroy");
+			//print ("Dublicate music player self-destroy");
 			
 		}else{
 			instance = this;
 			GameObject.DontDestroyOnLoad(gameObject);
 		}
-	}
-
-	
-	// Update is called once per frame
-	void Update () {
-		
 	}
 }

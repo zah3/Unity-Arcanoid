@@ -28,9 +28,9 @@ public class Brick : MonoBehaviour {
 	
 	}
 	void OnCollisionEnter2D (Collision2D col){
-		AudioSource.PlayClipAtPoint (crack, transform.position);
+		
 		if(isBreakable){
-			
+			AudioSource.PlayClipAtPoint (crack, transform.position);
 			HandleHits();
 		}
 	}
@@ -56,8 +56,8 @@ public class Brick : MonoBehaviour {
 		}
 		
 	}
-	//TODO Remove this method once we can actuallly win!
-	void SimulateWin(){
-		levelMenager.LoadNextLevel();
-	}
+
+	//void SimulateWin(){
+	//	levelMenager.LoadNextLevel();
+	//}
 }

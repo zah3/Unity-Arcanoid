@@ -10,6 +10,6 @@ public class LCollider : MonoBehaviour {
 		levelMenager.LoadLevel("Lose");
 	}
 	void OnCollisionEnter2D (Collision2D collision){
-		print ("Collision");
+		//print ("Collision");
 	}
 }

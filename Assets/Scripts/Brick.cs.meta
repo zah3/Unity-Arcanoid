@@ -2,7 +2,9 @@ fileFormatVersion: 2
 guid: 162a80dd1d951fc4b8e242a267785815
 MonoImporter:
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - crack: {fileID: 8300000, guid: 2c8ccd5f6561c6b45b4b72828027a923, type: 3}
+  - smoke: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

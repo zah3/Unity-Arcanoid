@@ -3,7 +3,7 @@ using System.Collections;
 
 public class LevelMenager : MonoBehaviour {
 
-	// Use this for initialization
+
 	public void LoadLevel(string name){
 		Debug.Log("Level load requested for "+ name);
 		Application.LoadLevel(name);
